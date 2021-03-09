@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="LayoutPanels.LayoutRoundingTest"
+        Title="LayoutRoundingTest" Height="300" Width="400">
+	<StackPanel>
+		<Grid UseLayoutRounding="False" Margin="10" ColumnDefinitions="*,*">
+			<!--<Grid.ColumnDefinitions>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+			</Grid.ColumnDefinitions>-->
+			<TextBlock Text="No layout rounding:" TextWrapping="Wrap" FontSize="18"></TextBlock>
+			<Rectangle Grid.Column="1" Stroke="Red" StrokeThickness="3" Height="50" Width="150"></Rectangle>
+		</Grid>
+		<Grid UseLayoutRounding="True" Margin="10" ColumnDefinitions="*,*">
+			<!--<Grid.ColumnDefinitions>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+			</Grid.ColumnDefinitions>-->
+			<TextBlock Text="With layout rounding:" TextWrapping="Wrap" FontSize="18"></TextBlock>
+			<Rectangle Grid.Column="1" Stroke="Red" StrokeThickness="3" Height="50" Width="150"></Rectangle>
+		</Grid>
+	</StackPanel>
+</Window>

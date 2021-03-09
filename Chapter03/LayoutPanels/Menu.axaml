@@ -13,6 +13,7 @@
 			<Button Click="ButtonClick">SimpleDock</Button>
 			<Button Click="ButtonClick">BasicDialogBox</Button>
 			<Button Click="ButtonClick">SimpleGrid</Button>
+			<Button Click="ButtonClick">LayoutRoundingTest</Button>
 		</StackPanel>
 	</Grid>
 </Window>
