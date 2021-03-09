@@ -10,6 +10,7 @@
 		<StackPanel Margin="5">
 			<Button Click="ButtonClick">SimpleStack</Button>
 			<Button Click="ButtonClick">SimpleWrap</Button>
+			<Button Click="ButtonClick">SimpleDock</Button>
 		</StackPanel>
 	</Grid>
 </Window>
