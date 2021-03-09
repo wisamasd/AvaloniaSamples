@@ -15,6 +15,7 @@
 			<Button Click="ButtonClick">SimpleGrid</Button>
 			<Button Click="ButtonClick">LayoutRoundingTest</Button>
 			<Button Click="ButtonClick">SplitWindow</Button>
+			<Button Click="ButtonClick">DoubleSplitWindow</Button>
 		</StackPanel>
 	</Grid>
 </Window>
