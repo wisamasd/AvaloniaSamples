@@ -7,7 +7,7 @@
         Title="Menu">
 	<Grid>
 		<StackPanel Margin="5" Button.Click="ButtonClick">
-
+			<Button Click="ButtonClick">SimpleStack</Button>
 		</StackPanel>
 	</Grid>
 </Window>

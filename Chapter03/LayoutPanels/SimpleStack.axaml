@@ -13,7 +13,8 @@
 		<Button Margin="3" MaxWidth="200" MinWidth="100">Button 3</Button>
 		<Button Margin="3" MaxWidth="200" MinWidth="100">Button 4</Button>
 
-		<CheckBox Name="chkVertical" Margin="10" HorizontalAlignment="Center"				  
+		<CheckBox Name="chkVertical" Margin="10" HorizontalAlignment="Center"
+				  Checked="chkVertical_Checked" Unchecked="chkVertical_Unchecked"
 				  Content="Use Vertical Orientation">
 		</CheckBox>
 	</StackPanel>
