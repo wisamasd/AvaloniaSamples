@@ -6,7 +6,8 @@
         x:Class="LayoutPanels.Menu"
         Title="Menu">
 	<Grid>
-		<StackPanel Margin="5" Button.Click="ButtonClick">
+		<!--<StackPanel Margin="5" Button.Click="ButtonClick">-->
+		<StackPanel Margin="5">
 			<Button Click="ButtonClick">SimpleStack</Button>
 		</StackPanel>
 	</Grid>
