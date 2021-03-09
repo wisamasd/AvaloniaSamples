@@ -9,6 +9,7 @@
 		<!--<StackPanel Margin="5" Button.Click="ButtonClick">-->
 		<StackPanel Margin="5">
 			<Button Click="ButtonClick">SimpleStack</Button>
+			<Button Click="ButtonClick">SimpleWrap</Button>
 		</StackPanel>
 	</Grid>
 </Window>
