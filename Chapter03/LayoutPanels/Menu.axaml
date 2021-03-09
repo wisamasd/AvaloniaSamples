@@ -12,6 +12,7 @@
 			<Button Click="ButtonClick">SimpleWrap</Button>
 			<Button Click="ButtonClick">SimpleDock</Button>
 			<Button Click="ButtonClick">BasicDialogBox</Button>
+			<Button Click="ButtonClick">SimpleGrid</Button>
 		</StackPanel>
 	</Grid>
 </Window>
