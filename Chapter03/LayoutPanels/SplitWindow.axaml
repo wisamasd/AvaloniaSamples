@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="LayoutPanels.SplitWindow"
+        Title="SplitWindow" Height="300" Width="300">
+	<Grid ColumnDefinitions="100,auto,50" RowDefinitions="*,*">
+		<!--<Grid.RowDefinitions>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition MinWidth="100"></ColumnDefinition>
+			<ColumnDefinition Width="Auto"></ColumnDefinition>
+			<ColumnDefinition MinWidth="50"></ColumnDefinition>
+		</Grid.ColumnDefinitions>-->
+		<Button Grid.Row="0" Grid.Column="0" Margin="3">Left</Button>
+		<Button Grid.Row="0" Grid.Column="2" Margin="3">Right</Button>
+		<Button Grid.Row="1" Grid.Column="0" Margin="3">Left</Button>
+		<Button Grid.Row="1" Grid.Column="2" Margin="3">Right</Button>
+
+		<GridSplitter Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+					Width="3" VerticalAlignment="Stretch" HorizontalAlignment="Center"
+					ShowsPreview="False"></GridSplitter>
+
+	</Grid>
+</Window>
