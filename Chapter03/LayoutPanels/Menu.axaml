@@ -17,6 +17,7 @@
 			<Button Click="ButtonClick">SplitWindow</Button>
 			<Button Click="ButtonClick">DoubleSplitWindow</Button>
 			<Button Click="ButtonClick">SharedSizeGroup</Button>
+			<Button Click="ButtonClick">SimpleCanvas</Button>
 		</StackPanel>
 	</Grid>
 </Window>
