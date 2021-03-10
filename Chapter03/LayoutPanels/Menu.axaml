@@ -16,6 +16,7 @@
 			<Button Click="ButtonClick">LayoutRoundingTest</Button>
 			<Button Click="ButtonClick">SplitWindow</Button>
 			<Button Click="ButtonClick">DoubleSplitWindow</Button>
+			<Button Click="ButtonClick">SharedSizeGroup</Button>
 		</StackPanel>
 	</Grid>
 </Window>
