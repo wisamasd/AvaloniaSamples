@@ -2,7 +2,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="LayoutPanels.ModularContent"
         Title="ModularContent" Height="362" Width="516">
-    <ScrollViewer>
+	<ScrollViewer>
 		<StackPanel>
 			<WrapPanel Background="LightSteelBlue" Name="pnlList">
 				<CheckBox Margin="5" IsChecked="True">Panel1</CheckBox>
@@ -11,7 +11,7 @@
 				<CheckBox Margin="5" IsChecked="True">Panel4</CheckBox>
 			</WrapPanel>
 
-			<WrapPanel>
+			<WrapPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 				<StackPanel Name="Panel1" >
 					<Border Padding="5" BorderBrush="Yellow" BorderThickness="2">
 						<UniformGrid Rows="2" Columns="2">
@@ -38,7 +38,8 @@
 				<StackPanel Name="Panel3">
 					<Border Padding="15" BorderBrush="Yellow" BorderThickness="2">
 						<StackPanel>
-							<TextBox MinLines="5" MaxWidth="150" TextWrapping="Wrap">This is a test of a text box that contains wrapped text.</TextBox>
+							<!--<TextBox MinLines="5" MaxWidth="150" TextWrapping="Wrap">This is a test of a text box that contains wrapped text.</TextBox>-->
+							<TextBox MaxWidth="150" TextWrapping="Wrap">This is a test of a text box that contains wrapped text.</TextBox>
 							<StackPanel Orientation="Horizontal">
 								<Button>OK</Button>
 								<Button>Cancel</Button>

@@ -22,6 +22,7 @@
 			<Button Click="ButtonClick">TheUniformGrid</Button>
 			<Button Click="ButtonClick">TextBoxColumn</Button>
 			<Button Click="ButtonClick">LocalizableText</Button>
+			<Button Click="ButtonClick">ModularContent</Button>
 		</StackPanel>
 	</Grid>
 </Window>

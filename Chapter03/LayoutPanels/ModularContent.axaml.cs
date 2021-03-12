@@ -1,5 +1,6 @@
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 
 namespace LayoutPanels
@@ -17,20 +18,23 @@ namespace LayoutPanels
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
+
+            AddHandler(CheckBox.CheckedEvent, chk_Checked);
+            AddHandler(CheckBox.UncheckedEvent, chk_Unchecked);
         }
 
         private void chk_Checked(object sender, RoutedEventArgs e)
         {
-            CheckBox chk = (CheckBox)e.OriginalSource;
-            DependencyObject obj = LogicalTreeHelper.FindLogicalNode(this, chk.Content.ToString());
-            ((FrameworkElement)obj).Visibility = Visibility.Visible;
+            CheckBox chk = (CheckBox)e.Source;
+            StackPanel obj = this.FindControl<StackPanel>(chk.Content.ToString());
+            obj.IsVisible = true;
         }
 
         private void chk_Unchecked(object sender, RoutedEventArgs e)
         {
-            CheckBox chk = (CheckBox)e.OriginalSource;
-            DependencyObject obj = LogicalTreeHelper.FindLogicalNode(this, chk.Content.ToString());
-            ((FrameworkElement)obj).Visibility = Visibility.Collapsed;
+            CheckBox chk = (CheckBox)e.Source;
+            StackPanel obj = this.FindControl<StackPanel>(chk.Content.ToString());
+            obj.IsVisible = false;
         }
     }
 }
