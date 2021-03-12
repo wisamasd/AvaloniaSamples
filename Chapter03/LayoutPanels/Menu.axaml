@@ -20,6 +20,7 @@
 			<Button Click="ButtonClick">SimpleCanvas</Button>
 			<Button Click="ButtonClick">SimpleInkCanvas</Button>
 			<Button Click="ButtonClick">TheUniformGrid</Button>
+			<Button Click="ButtonClick">TextBoxColumn</Button>
 		</StackPanel>
 	</Grid>
 </Window>

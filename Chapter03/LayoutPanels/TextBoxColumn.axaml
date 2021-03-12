@@ -18,25 +18,25 @@
         <Label Grid.Row="0" Grid.Column="0" Margin="3"
                VerticalAlignment="Center">Home:</Label>
         <TextBox Grid.Row="0" Grid.Column="1" Margin="3"
-                 Height="Auto" VerticalAlignment="Center"></TextBox>
+                 VerticalAlignment="Center"></TextBox>
         <Button Grid.Row="0" Grid.Column="2" Margin="3" Padding="2">Browse</Button>
 
         <Label Grid.Row="1" Grid.Column="0" Margin="3"
                VerticalAlignment="Center">Network:</Label>
         <TextBox Grid.Row="1" Grid.Column="1" Margin="3"
-                 Height="Auto"  VerticalAlignment="Center"></TextBox>
+                 VerticalAlignment="Center"></TextBox>
         <Button Grid.Row="1" Grid.Column="2" Margin="3" Padding="2">Browse</Button>
 
         <Label Grid.Row="2" Grid.Column="0" Margin="3"
                VerticalAlignment="Center">Web:</Label>
         <TextBox Grid.Row="2" Grid.Column="1" Margin="3"
-                 Height="Auto"  VerticalAlignment="Center"></TextBox>
+                 VerticalAlignment="Center"></TextBox>
         <Button Grid.Row="2" Grid.Column="2" Margin="3" Padding="2">Browse</Button>
 
         <Label Grid.Row="3" Grid.Column="0" Margin="3"
                VerticalAlignment="Center">Secondary:</Label>
         <TextBox Grid.Row="3" Grid.Column="1" Margin="3"
-                 Height="Auto"  VerticalAlignment="Center"></TextBox>
+                 VerticalAlignment="Center"></TextBox>
         <Button Grid.Row="3" Grid.Column="2" Margin="3" Padding="2">Browse</Button>
     </Grid>
 </Window>
