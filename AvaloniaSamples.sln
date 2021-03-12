@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter03", "Chapter03", "{E34051D1-7527-4155-91FD-AF08FA76D9C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutPanels", "Chapter03\LayoutPanels\LayoutPanels.csproj", "{A1C2E026-AA78-4183-A865-7533DEE829F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayoutPanels", "Chapter03\LayoutPanels\LayoutPanels.csproj", "{A1C2E026-AA78-4183-A865-7533DEE829F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter05", "Chapter05", "{FB383259-DDC5-44D8-BA63-17F208112ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEvents", "Chapter05\RoutedEvents\RoutedEvents.csproj", "{12660DAA-46E1-48F7-9BBC-22485984F8E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{A1C2E026-AA78-4183-A865-7533DEE829F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1C2E026-AA78-4183-A865-7533DEE829F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1C2E026-AA78-4183-A865-7533DEE829F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12660DAA-46E1-48F7-9BBC-22485984F8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12660DAA-46E1-48F7-9BBC-22485984F8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12660DAA-46E1-48F7-9BBC-22485984F8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12660DAA-46E1-48F7-9BBC-22485984F8E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A1C2E026-AA78-4183-A865-7533DEE829F6} = {E34051D1-7527-4155-91FD-AF08FA76D9C3}
+		{12660DAA-46E1-48F7-9BBC-22485984F8E2} = {FB383259-DDC5-44D8-BA63-17F208112ECF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF960A67-A03F-4B24-B3EC-44072016853F}
