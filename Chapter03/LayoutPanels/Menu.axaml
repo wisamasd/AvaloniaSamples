@@ -21,6 +21,7 @@
 			<Button Click="ButtonClick">SimpleInkCanvas</Button>
 			<Button Click="ButtonClick">TheUniformGrid</Button>
 			<Button Click="ButtonClick">TextBoxColumn</Button>
+			<Button Click="ButtonClick">LocalizableText</Button>
 		</StackPanel>
 	</Grid>
 </Window>
