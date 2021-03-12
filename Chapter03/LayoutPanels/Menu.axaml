@@ -19,6 +19,7 @@
 			<Button Click="ButtonClick">SharedSizeGroup</Button>
 			<Button Click="ButtonClick">SimpleCanvas</Button>
 			<Button Click="ButtonClick">SimpleInkCanvas</Button>
+			<Button Click="ButtonClick">TheUniformGrid</Button>
 		</StackPanel>
 	</Grid>
 </Window>
