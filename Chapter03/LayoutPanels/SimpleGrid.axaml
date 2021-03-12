@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="LayoutPanels.SimpleGrid"
+        Title="SimpleGrid" Height="400" Width="400">
+	<Grid ShowGridLines="True" RowDefinitions="*,*" ColumnDefinitions="*,*,*">
+		<!--<Grid.RowDefinitions>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+		</Grid.ColumnDefinitions>-->
+		<Button Grid.Row="0" Grid.Column="0">Top Left</Button>
+		<Button Grid.Row="0" Grid.Column="1">Middle Left</Button>
+		<Button Grid.Row="1" Grid.Column="2">Bottom Right</Button>
+		<Button Grid.Row="1" Grid.Column="1">Bottom Middle</Button>
+	</Grid>
+</Window>

@@ -1,0 +1,11 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="LayoutPanels.TheUniformGrid"
+        Title="TheUniformGrid" Height="300" Width="300">
+    <UniformGrid Rows="2" Columns="2">
+        <Button>Top Left</Button>
+        <Button>Top Right</Button>
+        <Button>Bottom Left</Button>
+        <Button>Bottom Right</Button>
+    </UniformGrid>
+</Window>

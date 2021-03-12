@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		Width="252" Height="500"
+        x:Class="LayoutPanels.Menu"
+        Title="Menu">
+	<Grid>
+		<!--<StackPanel Margin="5" Button.Click="ButtonClick">-->
+		<StackPanel Margin="5">
+			<Button Click="ButtonClick">SimpleStack</Button>
+			<Button Click="ButtonClick">SimpleWrap</Button>
+			<Button Click="ButtonClick">SimpleDock</Button>
+			<Button Click="ButtonClick">BasicDialogBox</Button>
+			<Button Click="ButtonClick">SimpleGrid</Button>
+			<Button Click="ButtonClick">LayoutRoundingTest</Button>
+			<Button Click="ButtonClick">SplitWindow</Button>
+			<Button Click="ButtonClick">DoubleSplitWindow</Button>
+			<Button Click="ButtonClick">SharedSizeGroup</Button>
+			<Button Click="ButtonClick">SimpleCanvas</Button>
+			<Button Click="ButtonClick">SimpleInkCanvas</Button>
+			<Button Click="ButtonClick">TheUniformGrid</Button>
+			<Button Click="ButtonClick">TextBoxColumn</Button>
+			<Button Click="ButtonClick">LocalizableText</Button>
+			<Button Click="ButtonClick">ModularContent</Button>
+		</StackPanel>
+	</Grid>
+</Window>

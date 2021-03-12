@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="LayoutPanels.SimpleWrap"
+        Title="LayoutPanels" Height="142" Width="570">
+	<WrapPanel>
+		<Button VerticalAlignment="Top">Top Button</Button>
+		<Button MinHeight="60">Tall Button 2</Button>
+		<Button VerticalAlignment="Bottom">Bottom Button</Button>
+		<Button>Stretch Button</Button>
+		<Button VerticalAlignment="Center">Centered Button</Button>
+	</WrapPanel>
+</Window>
