@@ -2,12 +2,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" Height="567" Width="257"
-        x:Class="Controls.Menu"
-        Title="Menu">
+        x:Class="Controls.EmbeddedFont"
+        Title="Controls" Height="300" Width="300">
     <Grid>
-        <StackPanel Margin="5">
-            <Button Click="ButtonClick">EmbeddedFont</Button>
-        </StackPanel>
+        <!--<Label Name="tst" FontSize="20" FontFamily="./#Bayern"-->
+        <Label Name="tst" FontSize="20"
+        >This is an embedded font</Label>
     </Grid>
 </Window>
