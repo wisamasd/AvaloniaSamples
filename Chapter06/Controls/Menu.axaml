@@ -12,6 +12,7 @@
             <Button Click="ButtonClick">ButtonsWithContent</Button>
             <Button Click="ButtonClick">ButtonWithShape</Button>
             <Button Click="ButtonClick">LabelTest</Button>
+            <Button Click="ButtonClick">RadioButtonGroups</Button>
         </StackPanel>
     </Grid>
 </Window>
