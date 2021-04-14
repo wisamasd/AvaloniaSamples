@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="Controls.GdiTextRendering"
+        Title="GdiTextRendering" Height="300" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock FontSize="12" Margin="5">
+            This is a Test. Ideal text is blurry at small sizes.
+        </TextBlock>
+
+        <!--https://github.com/AvaloniaUI/Avalonia/issues/5237
+		<TextBlock FontSize="12" Margin="5" TextOptions.TextFormattingMode="Display">-->
+        <TextBlock FontSize="12" Margin="5"  >
+            This is a Test. Display text is crisp at small sizes.
+        </TextBlock>
+
+    </StackPanel>
+</Window>

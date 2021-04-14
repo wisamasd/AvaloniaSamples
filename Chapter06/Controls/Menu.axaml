@@ -8,6 +8,7 @@
     <Grid>
         <StackPanel Margin="5">
             <Button Click="ButtonClick">EmbeddedFont</Button>
+            <Button Click="ButtonClick">GdiTextRendering</Button>
         </StackPanel>
     </Grid>
 </Window>
