@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="Controls.ButtonsWithContent"
+        Title="ButtonsWithContent" Height="300" Width="300">
+    <StackPanel Margin="3">
+        <Button Margin="3">Text button</Button>
+        <Button Margin="3">
+            <Image Source="resm:Controls.happyface.jpg" Stretch="None" />
+        </Button>
+        <Button Margin="3">
+            <StackPanel>
+                <TextBlock Margin="3">Image and text button</TextBlock>
+                <Image Source="resm:Controls.happyface.jpg" Stretch="None" />
+                <TextBlock Margin="3" >Courtesy of the StackPanel</TextBlock>
+            </StackPanel>
+        </Button>
+        <Button Padding="3" Margin="3" HorizontalContentAlignment="Stretch">
+            <StackPanel>
+                <TextBlock Margin="3">Type something here:</TextBlock>
+                <TextBox Margin="3" HorizontalAlignment="Stretch">Text box in a button</TextBox>
+            </StackPanel>
+        </Button>
+    </StackPanel>
+</Window>

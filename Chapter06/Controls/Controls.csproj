@@ -1,17 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.10.0" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.10.0" />
-    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.0" />
-   </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Menu.axaml.cs">
-      <DependentUpon>Menu.axaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="happyface.jpg" />
+	</ItemGroup>
+	<ItemGroup>
+	  <EmbeddedResource Include="happyface.jpg" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Avalonia" Version="0.10.0" />
+		<PackageReference Include="Avalonia.Desktop" Version="0.10.0" />
+		<PackageReference Include="Avalonia.Diagnostics" Version="0.10.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="Menu.axaml.cs">
+			<DependentUpon>Menu.axaml</DependentUpon>
+		</Compile>
+	</ItemGroup>
 </Project>
