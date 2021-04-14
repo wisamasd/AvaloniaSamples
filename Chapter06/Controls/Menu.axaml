@@ -10,6 +10,7 @@
             <Button Click="ButtonClick">EmbeddedFont</Button>
             <Button Click="ButtonClick">GdiTextRendering</Button>
             <Button Click="ButtonClick">ButtonsWithContent</Button>
+            <Button Click="ButtonClick">ButtonWithShape</Button>
         </StackPanel>
     </Grid>
 </Window>
